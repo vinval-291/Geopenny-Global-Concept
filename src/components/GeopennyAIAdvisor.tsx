@@ -128,7 +128,7 @@ export default function GeopennyAIAdvisor({
       {!isOpen && (
         <button
           onClick={handleOpenWidget}
-          className="fixed bottom-6 right-6 z-40 bg-[#0B1F3A] text-white p-4 rounded-full border border-[#D4AF37]/50 shadow-2xl hover:bg-slate-900 transition-all transform hover:-translate-y-1 cursor-pointer flex items-center gap-2 group hover:scale-105"
+          className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 bg-[#0B1F3A] text-white p-4 rounded-full border border-[#D4AF37]/50 shadow-2xl hover:bg-slate-900 transition-all transform hover:-translate-y-1 cursor-pointer flex items-center gap-2 group hover:scale-105"
           id="ai-bot-floating-trigger"
         >
           {/* Unread pulsing dot */}
@@ -153,7 +153,7 @@ export default function GeopennyAIAdvisor({
       {/* Slide-out Chat Widget Panel */}
       {isOpen && (
         <div 
-          className="fixed bottom-6 right-6 z-50 w-full max-w-[360px] sm:max-w-[400px] h-[520px] bg-slate-950 border border-[#D4AF37]/45 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-12 duration-200"
+          className="fixed bottom-4 right-4 left-4 sm:left-auto sm:bottom-6 sm:right-6 z-50 w-auto sm:w-full sm:max-w-[400px] h-[500px] sm:h-[520px] bg-slate-950 border border-[#D4AF37]/45 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-12 duration-200"
           id="ai-bot-panel-expanded"
         >
           {/* Header */}

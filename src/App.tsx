@@ -8,7 +8,6 @@ import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectsPage from "./pages/ProjectsPage";
-import InvestmentsPage from "./pages/InvestmentsPage";
 import ContactPage from "./pages/ContactPage";
 import PropertyDetailPage from "./pages/PropertyDetailPage";
 import PortfolioPage from "./pages/PortfolioPage";
@@ -128,8 +127,6 @@ export default function App() {
             onOpenBooking={handleOpenBooking}
           />
         );
-      case "roi":
-        return <InvestmentsPage onOpenBooking={handleOpenBooking} />;
       case "contact":
         return (
           <ContactPage 

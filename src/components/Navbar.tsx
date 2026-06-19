@@ -30,7 +30,6 @@ export default function Navbar({ currentPage, onSetPage, onOpenBooking, onOpenAd
     { label: "Our Services", pageId: "services" },
     { label: "Properties", pageId: "projects" },
     { label: "Design Portfolio", pageId: "portfolio" },
-    { label: "ROI Estimator", pageId: "roi" },
     { label: "Contact Us", pageId: "contact" },
   ];
 

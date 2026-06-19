@@ -46,7 +46,7 @@ export default function ContactPage({
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [selectedMapPin, setSelectedMapPin] = useState<"office" | "green" | "residences">("office");
 
-  // Sync pre-fills from ROI Calculator or Property details click trigger
+  // Sync pre-fills from Property details click trigger
   useEffect(() => {
     if (prefilledService) {
       setFormData((prev) => ({ ...prev, service: prefilledService }));

@@ -52,17 +52,4 @@ export interface BookingFormInput {
   message: string;
 }
 
-export interface ROICalculatorOutput {
-  propertyName: string;
-  initialInvestment: number;
-  holdingPeriodYears: number;
-  annualAppreciationRate: number;
-  annualRentalYieldRate: number;
-  estimatedFutureValue: number;
-  accumulatedRentalIncome: number;
-  capitalGain: number;
-  netTotalReturn: number;
-  totalROIPercentage: number;
-  narrative: string;
-  paymentStrategy: Array<{ step: string; value: string }>;
-}
+

@@ -81,7 +81,6 @@ export default function Footer({ onSetPage }: FooterProps) {
               <button onClick={(e) => handleLinkClick(e, "services")} className="text-left hover:text-[#D4AF37] bg-transparent border-0 p-0 cursor-pointer transition-colors">Our Services</button>
               <button onClick={(e) => handleLinkClick(e, "projects")} className="text-left hover:text-[#D4AF37] bg-transparent border-0 p-0 cursor-pointer transition-colors">Our Properties</button>
               <button onClick={(e) => handleLinkClick(e, "portfolio")} className="text-left hover:text-[#D4AF37] bg-transparent border-0 p-0 cursor-pointer transition-colors">Design Portfolio</button>
-              <button onClick={(e) => handleLinkClick(e, "roi")} className="text-left hover:text-[#D4AF37] bg-transparent border-0 p-0 cursor-pointer transition-colors">ROI Estimator</button>
               <button onClick={(e) => handleLinkClick(e, "contact")} className="text-left hover:text-[#D4AF37] bg-transparent border-0 p-0 cursor-pointer transition-colors">Contact Office</button>
             </div>
           </div>

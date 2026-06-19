@@ -1,0 +1,6 @@
+{
+  "name": "Geopenny Global Concept",
+  "description": "Geopenny Global Concept is a trusted multi-service provider in Ibadan, Oyo State, Nigeria, specializing in Real Estate Services, Property Management, Graphic Design, Printing Solutions, and General Merchandise.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
